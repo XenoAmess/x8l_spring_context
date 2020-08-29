@@ -1,0 +1,11 @@
+<com.alibaba.p3c.pmd.config version=0.0.1>
+    <rule_blacklist>
+        MethodTooLongRule&
+        AvoidComplexConditionRule
+    >
+    <rule_class_pair_blacklist>
+        <CommentNode>EqualsHashCodeRule>
+        <ContentNode>EqualsHashCodeRule>
+        <TextNode>EqualsHashCodeRule>
+    >
+>
