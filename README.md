@@ -2,6 +2,15 @@
 
 X8l data format for Spring framework ApplicationContext.
 
+<p>
+  <b>
+      See <a href="https://plugins.jetbrains.com/plugin/13915-x8l">plugin on Jetbrains plugin storage</a><br/>
+      See <a href="https://github.com/XenoAmess/x8l_idea_plugin">plugin on github</a><br/>
+      See <a href="https://github.com/cyanpotion/x8l">X8l Grammar/SDK</a><br/>
+      See <a href="https://github.com/XenoAmess/x8l_spring_context">X8l Spring Context</a><br/>
+  </b>
+</p>
+
 Use this we can replace bean.xml to bean.x8l when handling spring.
 
 Right now we have a shabby demo version showing possibility only,
@@ -16,5 +25,4 @@ But at least it is usable.
     >
 >
 ```
-
 For more details about usage,please go test folder.
