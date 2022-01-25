@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.xenoamess.x8l</groupId>
     <artifactId>spring-context</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
     <description>X8l data format for Spring framework ApplicationContext
@@ -44,26 +44,26 @@
         <!---->
         <!---->
         <!--libraries versions-->
-        <spring-context.version>5.2.8.RELEASE</spring-context.version>
+        <spring-context.version>5.3.15</spring-context.version>
         <!---->
         <!---->
         <!--home made libraries versions-->
-        <x8l.version>2.3.2</x8l.version>
+        <x8l.version>2.3.8</x8l.version>
         <!---->
         <!---->
         <!--maven plugins versions-->
-        <junit-jupiter.version>5.7.0-RC1</junit-jupiter.version>
-        <annotations.version>20.0.0</annotations.version>
-        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
-        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
-        <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
-        <maven-project-info-reports-plugin.version>3.1.0</maven-project-info-reports-plugin.version>
-        <maven-site-plugin.version>3.9.1</maven-site-plugin.version>
+        <junit-jupiter.version>5.8.2</junit-jupiter.version>
+        <annotations.version>23.0.0</annotations.version>
+        <maven-compiler-plugin.version>3.9.0</maven-compiler-plugin.version>
+        <maven-deploy-plugin.version>3.0.0-M2</maven-deploy-plugin.version>
+        <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
+        <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
+        <maven-project-info-reports-plugin.version>3.1.2</maven-project-info-reports-plugin.version>
+        <maven-site-plugin.version>3.10.0</maven-site-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
-        <versions-maven-plugin.version>2.8.1</versions-maven-plugin.version>
-        <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
+        <versions-maven-plugin.version>2.9.0</versions-maven-plugin.version>
+        <maven-dependency-plugin.version>3.2.0</maven-dependency-plugin.version>
     </properties>
 
     <profiles>
@@ -317,7 +317,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.5</version>
+                <version>0.8.7</version>
                 <executions>
                     <execution>
                         <goals>
