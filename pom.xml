@@ -44,7 +44,7 @@
         <!---->
         <!---->
         <!--libraries versions-->
-        <spring-context.version>6.2.5</spring-context.version>
+        <spring-context.version>6.2.6</spring-context.version>
         <!---->
         <!---->
         <!--home made libraries versions-->
